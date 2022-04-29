@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E37154325C0FB980037351E /* NoteAppCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteAppCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E37154325C0FB980037351E /* NoteAppConCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteAppConCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E37154625C0FB980037351E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E37154825C0FB980037351E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E37154A25C0FB980037351E /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		2E37154425C0FB980037351E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E37154325C0FB980037351E /* NoteAppCoreData.app */,
+				2E37154325C0FB980037351E /* NoteAppConCoreData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E37154225C0FB980037351E /* NoteAppCoreData */ = {
+		2E37154225C0FB980037351E /* NoteAppConCoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E37155A25C0FB9B0037351E /* Build configuration list for PBXNativeTarget "NoteAppCoreData" */;
+			buildConfigurationList = 2E37155A25C0FB9B0037351E /* Build configuration list for PBXNativeTarget "NoteAppConCoreData" */;
 			buildPhases = (
 				2E37153F25C0FB980037351E /* Sources */,
 				2E37154025C0FB980037351E /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = NoteAppCoreData;
+			name = NoteAppConCoreData;
 			productName = NoteAppCoreData;
-			productReference = 2E37154325C0FB980037351E /* NoteAppCoreData.app */;
+			productReference = 2E37154325C0FB980037351E /* NoteAppConCoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E37153E25C0FB980037351E /* Build configuration list for PBXProject "NoteAppCoreData" */;
+			buildConfigurationList = 2E37153E25C0FB980037351E /* Build configuration list for PBXProject "NoteAppConCoreData" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E37154225C0FB980037351E /* NoteAppCoreData */,
+				2E37154225C0FB980037351E /* NoteAppConCoreData */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = code.with.cal.NoteAppCoreData;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.fernando.ios.noteAppConCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = code.with.cal.NoteAppCoreData;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.fernando.ios.noteAppConCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E37153E25C0FB980037351E /* Build configuration list for PBXProject "NoteAppCoreData" */ = {
+		2E37153E25C0FB980037351E /* Build configuration list for PBXProject "NoteAppConCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E37155825C0FB9B0037351E /* Debug */,
@@ -347,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E37155A25C0FB9B0037351E /* Build configuration list for PBXNativeTarget "NoteAppCoreData" */ = {
+		2E37155A25C0FB9B0037351E /* Build configuration list for PBXNativeTarget "NoteAppConCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E37155B25C0FB9B0037351E /* Debug */,
